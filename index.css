@@ -1,0 +1,42 @@
+
+html{
+  font-family: "Helvetica Neue", sans-serif;
+  width:10%;
+  color:#666666;
+  text-align:center;
+}
+
+.create{
+  visibility:hidden;
+  position:absolute;
+  background:#ffffff;
+  border:5px solid #666666;
+  width:25%;
+  height:25%;
+  left:15%;
+}
+
+.create.active{
+	visibility: visible;
+	text-align: center;
+}
+
+
+.row{
+	visibility :hidden;
+}
+
+.row.active{
+	visibility:visible;
+}
+
+button .hovers{
+  display:inline-block;
+  vertical-align:middle;
+  border-radius:30px;
+  margin:.20rem;
+  font-size: 1rem;
+  color:#666666;
+  background:#00FFFF;
+  border:1px solid #666666;  
+}
